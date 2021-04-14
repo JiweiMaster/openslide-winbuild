@@ -7,12 +7,23 @@ Cross-compiling from Linux
 You will need:
 
 - MinGW-w64 gcc and g++ for the target architecture (`i686` or `x86_64`)
+       -sudo apt-get install mingw-w64
+        sudo apt-get install mingw-w64-tools 
+        sudo apt-get install mingw-w64-i686-dev 
+        sudo apt-get install mingw-w64-x86-64-dev 
 - NASM
+        apt install nasm
 - OpenJDK
+        apt install apt-get install openjdk-8-jdk
 - Apache Ant
+        wget https://downloads.apache.org/ant/binaries/apache-ant-1.10.9-bin.tar.gz
+        export ANT_HOME=/usr/apache-ant-1.8.4 
+        ant -version
 - CMake
 - gettext utility programs
+        apt install gettext
 - glib2 utility programs
+        apt-get install libglib2.0-dev
 - Native gcc and binutils for your build platform
 
 Then:
