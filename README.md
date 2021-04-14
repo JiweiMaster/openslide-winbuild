@@ -117,3 +117,5 @@ Set package version string in Zip file names to `pkgver`.
 #### `-s<suffix>`
 
 Append `suffix` to the OpenSlide version string.
+
+2021-04-14
